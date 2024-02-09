@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Figtree";
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.wrapper{
+    background-color: hsl(0, 0%, 100%);
+    width: 384px;
+    height: 524px;
+    border-radius: 20px;
+    border: 1px solid black;
+    -webkit-box-shadow: 8px 7px 0px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 8px 7px 0px 0px rgb(0, 0, 0);
+    box-shadow: 8px 7px 0px 0px rgb(0, 0, 0);
+}
+
+.card-top img{
+    border-radius: 10px;
+    margin-top: 22px;
+}
+
+.button-text{
+    font-size: 14px;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    padding: 6px;
+    width: 82px;
+    border-radius: 5px;
+    margin-left: 23px;
+    margin-top: 19.5px;
+
+}
+
+.date-text{
+    font-size: 14px;
+    margin-top: 14px;
+    margin-right: 192px;
+}
+
+.card-middle h1{
+    font-size: 24px;
+    margin-right: 56px;
+    margin-top: 17px;
+    transition: ease-in-out 0.3s;
+}
+
+
+.card-middle h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+
+.card-middle p{
+    color: hsl(0, 0%, 50%);
+    width: 320px;
+    text-align: left;
+    margin-left: 23px;
+    margin-top: 19px;
+    height: 90px;
+    line-height: 22px;
+}
+
+.card-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.card-bottom img{
+    width: 32px;
+    margin-left: 23px;
+    margin-top: 2.5px;
+}
+
+.card-bottom p{
+    font-weight: 800;   
+    font-size: 14px;
+    margin-left: 12px;
+    margin-bottom: 7px;
+}
